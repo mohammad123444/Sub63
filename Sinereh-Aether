@@ -1,1 +1,6 @@
+aether://?protocol=wg-over-masque&scan=balanced&ip=both&transport=h2#WireGuard%20over%20MASQUE
+aether://?protocol=wg&scan=turbo&ip=both#WireGuard
+aether://?protocol=gool&scan=turbo&ip=both#WARP-in-WARP
+aether://?protocol=masque&scan=balanced&ip=both&transport=h2&fingerprint=semi-python#MASQUE
+aether://?protocol=mim&scan=balanced&ip=both&transport=h2&fingerprint=semi-python#MASQUE-in-MASQUE
 
