@@ -3,4 +3,9 @@ aether://?protocol=wg&scan=turbo&ip=both#WireGuard
 aether://?protocol=gool&scan=turbo&ip=both#WARP-in-WARP
 aether://?protocol=masque&scan=balanced&ip=both&transport=h2&fingerprint=semi-python#MASQUE
 aether://?protocol=mim&scan=balanced&ip=both&transport=h2&fingerprint=semi-python#MASQUE-in-MASQUE
+aether://162.159.198.2:443?protocol=masque&scan=turbo&ip=v4&transport=h2&psiphon=chain&psiphon_mode=auto#MASQUE%2Fphiphon
+aether://?protocol=gool&scan=turbo&ip=v4&outer=188.114.97.1%3A4500&inner=162.159.195.1%3A500&psiphon=chain&psiphon_mode=auto#WARP-in-WARP%2Fphiphon
+aether://188.114.97.1:4500?protocol=wg&scan=turbo&ip=v4&psiphon=chain&psiphon_mode=auto#WireGuard%2Fphiphon
+aether://?protocol=wg-over-masque&scan=turbo&ip=v4&transport=h2&outer=162.159.198.2%3A443&psiphon=chain&psiphon_mode=auto#WireGuard%20over%20MASQUE%2Fphiphon
+aether://?protocol=mim&scan=turbo&ip=v4&transport=h2&outer=162.159.198.217%3A443&inner=162.159.198.54%3A443&psiphon=chain&psiphon_mode=auto#MASQUE-in-MASQUE%2Fphiphon
 
