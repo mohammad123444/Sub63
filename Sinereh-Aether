@@ -8,3 +8,7 @@ aether://?protocol=mim&scan=turbo&ip=v4&transport=h2&fragment=1&fragment_size=50
 aether://?protocol=gool&scan=turbo&ip=v4&outer=188.114.97.1%3A4500&inner=162.159.195.1%3A500&psiphon=chain&psiphon_mode=auto#WARP-in-WARP%2Fpsiphon
 aether://188.114.97.1:4500?protocol=wg&scan=turbo&ip=v4&psiphon=chain&psiphon_mode=auto#WireGuard%2Fpsiphon
 aether://?protocol=wg-over-masque&scan=turbo&ip=v4&transport=h2&fragment=1&fragment_size=50-100&fragment_delay=10-20&outer=162.159.198.81%3A443&psiphon=chain&psiphon_mode=auto#WireGuard%20over%20MASQUE%2Fpsiphon
+aether://?protocol=wg-over-masque&scan=thorough&ip=both&transport=h2&fragment=1&fragment_size=50-100&fragment_delay=10-20#WireGuard%20over%20MASQUE%20Thorough
+aether://?protocol=wg-over-masque&scan=balanced&ip=both&transport=h2&fragment=1&fragment_size=20-60&fragment_delay=10-20#WireGuard%20over%20MASQUE%20SmallFrag
+aether://?protocol=wg-over-masque&scan=balanced&ip=both&transport=h2&fragment=1&fragment_size=50-100&fragment_delay=10-20#WireGuard%20over%20MASQUE%20Balanced
+aether://?protocol=wg-over-masque&scan=balanced&ip=both&transport=h2&fragment=1&fragment_size=8-24&fragment_delay=5-15&outer=162.159.198.113%3A443#WireGuard%20over%20MASQUE2
